@@ -391,7 +391,7 @@ body{
 }
 @media screen and (max-width: 968px){
     .touch{
-        padding: 300px 16px 300px 16px;
+        padding: 250px 16px 200px 16px;
         text-align: center;
     }
     .touch h1{
