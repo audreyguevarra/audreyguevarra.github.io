@@ -38,7 +38,7 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="index.html" class="nav__link">work</a></li>
                         <li class="nav__item"><a href="about.html" class="nav__link">about + experience</a></li>
-                        <li class="nav__item"><a href="https://drive.google.com/file/d/1KDpCj2w9iUkUSq0yXN8H9X0-HxkxpvPe/view?usp=share_link" class="nav__link" target="_blank">resume</a></li>
+                        <li class="nav__item"><a href="https://drive.google.com/file/d/1KDpCj2w9iUkUSq0yXN8H9X0-HxkxpvPe/view?usp=sharing" class="nav__link" target="_blank">resume</a></li>
                     </ul>
                 </div>
                 <div class="nav__toggle">
@@ -50,59 +50,55 @@
 
     <main class="main">
         <!-- hero -->
-        <section id="hero" class="hero">
+        <section id="hero" class="section-hero">
             <div class="hero__wrapper">
                 <div class="hero__content">
-                    <h1 class="hero__title">hello, i'm audrey!</h1>
-                    <p class="hero__description">i am a <span>designer</span> based in the <span>philippines</span>. i am driven by <span>empathy</span> and a passion to create <span>meaningful impact</span> on user's experiences. <br>i am interested in <span>user experience</span>, user interface, <span>design systems</span>, branding, <span>film editing</span>, coding, and <span>data</span>.</p>
+                    <h1 class="hero__title">hello, i’m audrey — a designer creating intuitive and visually appealing digital experiences.</h1>
                 </div>
             </div>
         </section>
 
-        <!-- Projects -->
-        <section id="project" class="section project">
-            <div class="columns" onmouseover="changeImage('assets/images/proj-col-nittiv.png', this)" onmouseout="changeImage('assets/images/proj-gray-nittiv.png', this)">
-                <a href="#" class="link">
-                    <div class="left-content">
-                        <p class="tag">ui design + website redesign</p>
-                        <h3>nittiv</h3>
-                        <p class="description">a social marketplace where millions of travelers can easily explore & book top rated nature, wellness & outdoor destinations. a platform that will incentivize travelers by recommending places and promoting destinations.</p>
-                        <button class="btn--primary">case study coming soon!</button>
-                    </div>
-                    <div class="right-content">
-                        <img src="assets/images/proj-gray-nittiv.png" alt="nittiv" class="first">
-                    </div>
-                </a>
+        <!-- works -->
+        <section id="work" class="section-work">
+            <div class="rows">
+                <div class="rows-one">
+                    <img src="assets/images/work-nittiv.png" alt="nittiv">
+                    <div class="overlay"></div>
+                    <div class="button"><a href="nittiv.html">see case</a></div>
+                </div>
+                <div class="rows-content">
+                    <h5>nittiv</h5>
+                    <p>website redesign + ui/ux design</p>
+                    <p>2021</p>
+                </div>
             </div>
-            <div class="columns" onmouseover="changeImage('assets/images/proj-col-klei.png', this)" onmouseout="changeImage('assets/images/proj-gray-klei.png', this)">
-                <a href="#" class="link">
-                    <div class="left-content">
-                        <p class="tag">branding + website design</p>
-                        <h3>klei</h3>
-                        <p class="description">an innovative learning management system (LMS) designed to empower k-12 schools worldwide. klei revolutionizes education by providing educators and students with a comprehensive platform for collaborative and personalized learning.</p>
-                        <button class="btn--primary">case study coming soon!</button>
-                    </div>
-                    <div class="right-content">
-                        <img src="assets/images/proj-gray-klei.png" alt="klei" class="first">
-                    </div>
-                </a>
+            <div class="rows">
+                <div class="rows-img">
+                    <img src="assets/images/work-klei.png" alt="klei">
+                    <div class="overlay"></div>
+                    <div class="button"><a href="">coming soon!</a></div>
+                </div>
+                <div class="rows-content">
+                    <h5>klei</h5>
+                    <p>branding + website design</p>
+                    <p>2023</p>
+                </div>
             </div>
-            <div class="columns" onmouseover="changeImage('assets/images/proj-col-rbim.png', this)" onmouseout="changeImage('assets/images/proj-gray-rbim.png', this)">
-                <a href="#" class="link">
-                    <div class="left-content">
-                        <p class="tag">ui/ux design + development</p>
-                        <h3>rbim</h3>
-                        <p class="description">a comprehensive registry system is designed to efficiently manage the population data of both barangay inhabitants and migrants, empowering barangay authorities to make informed decisions by analyzing population data and gaining valuable insights into demographic trends and patterns.</p>
-                        <button class="btn--primary">case study coming soon!</button>
-                    </div>
-                    <div class="right-content">
-                        <img src="assets/images/proj-gray-rbim.png" alt="rbim" class="first">
-                    </div>
-                </a>
+            <div class="rows">
+                <div class="rows-img">
+                    <img src="assets/images/work-rbim.png" alt="nittiv">
+                    <div class="overlay"></div>
+                    <div class="button"><a href="#">coming soon!</a></div>
+                </div>
+                <div class="rows-content">
+                    <h5>rbim</h5>
+                    <p>ui/ux design + development</p>
+                    <p>2022</p>
+                </div>
             </div>
         </section>
 
-        <section id="contact" class="contact">
+        <section id="contact" class="section-contact">
             <div class="touch">
                 <h1>have a project in mind?<br><span><a href="mailto:audreyrossguevarra@gmail.com">let's talk.</a></span></h1>
             </div>
@@ -129,7 +125,7 @@
     </footer>
 
     <!-- Main JS -->
-    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" defer src="assets/js/script.js"></script>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
